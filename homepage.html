@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Find Your Stay</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 15px;
+    }
+
+    .top-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .top-bar span {
+      font-size: 20px;
+    }
+
+    .search-box {
+      margin: 20px 0;
+      display: flex;
+      gap: 10px;
+    }
+
+    .search-box input {
+      flex: 1;
+      padding: 10px;
+      border: none;
+      background: lightgray;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+
+    .search-icons {
+      display: flex;
+      gap: 10px;
+    }
+
+    .locations {
+      display: flex;
+      justify-content: space-around;
+      margin-bottom: 20px;
+    }
+
+    .locations div {
+      text-align: center;
+    }
+
+    .locations img {
+      width: 60px;
+      height: 60px;
+      border-radius: 8px;
+    }
+
+    h2 {
+      font-size: 22px;
+      font-weight: bold;
+      margin: 20px 0 10px;
+    }
+
+    .section-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .view-all {
+      color: red;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .resorts {
+      display: flex;
+      gap: 15px;
+      overflow-x: scroll;
+    }
+
+    .resort {
+      min-width: 200px;
+      background: #eee;
+      border-radius: 8px;
+    }
+
+    .resort img {
+      width: 100%;
+      border-radius: 8px 8px 0 0;
+    }
+
+    .resort-name {
+      padding: 8px;
+      font-weight: bold;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="top-bar">
+    <span>Hello</span>
+    <div>
+      <!-- Placeholder icons -->
+      <span>🔔 ❤ 🛎</span>
+    </div>
+  </div>
+
+  <h2>Find your stay</h2>
+  <div class="search-box">
+    <input type="text" placeholder="Search here...">
+    <div class="search-icons">🔍 ⚙</div>
+  </div>
+
+  <div class="locations">
+    <div><img src="goa.jpg" alt="Goa"><br><small>GOA</small></div>
+    <div><img src="kashmir.jpg" alt="Kashmir"><br><small>KASHMIR</small></div>
+    <div><img src="kerala.jpg" alt="Kerala"><br><small>KERALA</small></div>
+    <div><img src="rajasthan.jpg" alt="Rajasthan"><br><small>RAJASTHAN</small></div>
+  </div>
+
+  <div class="section-header">
+    <h2>OUR PROPERTIES</h2>
+    <div class="view-all">view all</div>
+  </div>
+
+  <div class="resorts">
+    <div class="resort">
+      <img src="woodland.jpg" alt="Woodland">
+      <div class="resort-name">woodland resort</div>
+    </div>
+    <div class="resort">
+      <img src="grandgoa.jpg" alt="Grand Goa">
+      <div class="resort-name">grand goa resort</div>
+    </div>
+  </div>
+
+  <h2>Popular</h2>
+  <div class="resorts">
+    <div class="resort">
+      <img src="popular1.jpg" alt="Popular 1">
+    </div>
+    <div class="resort">
+      <img src="popular2.jpg" alt="Popular 2">
+    </div>
+  </div>
+
+</body>
+</html>
+

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Card Payment</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #fff;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h2 {
+      font-style: italic;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .card-input {
+      background-color: #ddd;
+      width: 100%;
+      padding: 15px;
+      font-size: 18px;
+      border: none;
+      border-radius: 5px;
+      margin-bottom: 50px;
+    }
+
+    .footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .total-label {
+      font-size: 20px;
+      font-weight: bold;
+      font-style: italic;
+    }
+
+    .total-price {
+      font-size: 22px;
+      font-weight: bold;
+    }
+
+    .book-btn {
+      margin-top: 20px;
+      background-color: #ddd;
+      padding: 15px 40px;
+      font-size: 20px;
+      font-weight: bold;
+      font-style: italic;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .book-btn:hover {
+      background-color: #ccc;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>your card no:</h2>
+  <input type="text" class="card-input" placeholder="Enter card number" maxlength="16">
+
+  <div class="footer">
+    <div class="total-label">TOTAL</div>
+    <div class="total-price">₹ 4,950</div>
+  </div>
+
+  <button class="book-btn">BOOK</button>
+
+</body>
+</html>
+
